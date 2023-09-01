@@ -1,0 +1,1567 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+.header {
+    display: flex;
+    padding: 0 5rem;
+    justify-content: center;
+    max-width: 100%;
+    z-index: 999;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 5, 30, 0.457), rgba(0, 0, 0, 0.74)), url(./NG-en-20230821-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+.hr{
+    margin-top: 0;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.nexflixLogo{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    display: block;
+}
+.btn {
+    display: flex;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 0.25rem;
+    background-color: red;
+    color: white;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.con__tent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 7rem;
+    flex-wrap: wrap;
+}
+.con__tent h1 {
+    font-size: 55px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.con__tent h4 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.con__tent h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.mail__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Mail__address {
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.Mail__address input {
+    width: 450px;
+    height: 45px;
+    border: none;
+    padding: 8px;
+    background: transparent;
+    border-radius: 0.25rem;
+    position: relative;
+}
+.Mail__address input::placeholder {
+    color: white;
+    font: 20px;
+    transition: all 1s ease-in;
+}
+.Mail__address input:focus::placeholder {
+    color: rgba(255, 0, 0, 0.589);
+    transition: all 1s ease-in-out;
+    position: absolute;
+    margin-top: -15px;
+}
+.__btn button {
+    padding: 12px 24px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 0.25rem;
+    margin-top: 10px;
+    border: none;
+}
+.sectiontwo {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10rem;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.952));
+}
+.second_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con_tent_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first_conn {
+    color: white;
+}
+.first_conn h1 {
+    font-size: 40px;
+}
+.second_conn {
+    position: relative;
+}
+.image {
+    width: 100%;
+    z-index: 12;
+}
+.image img {
+    width: 100%;
+    z-index: 10000;
+}
+.vid {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 48%;
+    left: 49.5%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.vid video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .header {
+        padding: 0 2rem;
+    }
+    .navbar {
+        padding: 0 .5rem;
+        margin-top: 1rem;
+    }
+    .nexflixLogo{
+        width: 8rem;
+        height: 1.7rem;
+        color: rgb(229,9,20);
+        fill: currentColor;
+        display: block;
+    }
+    .con__tent h1 {
+        font-size: 35px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .con__tent h4 {
+        font-size: 15px;
+        margin-bottom: 1rem;
+    }
+    .con__tent h3 {
+        font-size: 10px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .Mail__address {
+        border: 1px solid gray;
+        border-radius: 0.25rem;
+        margin-top: 10px;
+    }
+    .Mail__address input {
+        width: 350px;
+        height: 60px;
+        border: none;
+        padding: 8px;
+        background: transparent;
+        color: red;
+        border-radius: 0.25rem;
+        position: relative;
+    }
+    .__btn button {
+        padding: 10px;
+        color: white;
+        background-color: red;
+        font-size: 20px;
+        border-radius: 0.25rem;
+        margin-top: 10px;
+    }
+    .second_sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .con_tent_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .first_conn h1 {
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+    .first_conn h3 {
+        font-size: 30px;
+    }
+    .sectiontwo {
+        width: 100%;
+        height: 100vh;
+        padding: 0 5rem;
+        background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.952));
+    }
+}
+
+@media (min-width:320px) {
+    .header {
+        padding: 0 5rem;
+    }
+    .navbar {
+        padding: 0 5rem;
+    }
+    .con__tent h1 {
+        font-size: 25px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .con__tent h4 {
+        font-size: 15px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .con__tent h3 {
+        font-size: 10px;
+        margin-bottom: 1rem;
+    }
+    .Mail__address {
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .Mail__address input {
+        width: 240px;
+        height: 40px;
+        border: none;
+        padding: 8px;
+        background: transparent;
+        color: red;
+        border-radius: 0.25rem;
+        position: relative;
+    }
+    .Mail__address input:focus::placeholder {
+        color: rgba(255, 0, 0, 0.589);
+        transition: all 1s ease-in-out;
+        position: absolute;
+        margin-top: -12px;
+    }
+    .__btn button {
+        padding: 5px;
+        color: white;
+        background-color: red;
+        font-size: 15px;
+        border-radius: 0.25rem;
+        margin-top: 0px;
+    }
+    .second_sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .first_conn h1 {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: .7rem;
+    }
+    .first_conn h3 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .sectiontwo {
+        width: 100%;
+        height: 100vh;
+        padding: 0 2rem;
+        background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.952));
+    }
+}
+
+@media (min-width:375px) {
+    .first_conn h1 {
+        font-size: 26.5px;
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+    .first_conn h3 {
+        font-size: 17px;
+    }
+    .navbar {
+      padding: 0 5rem;
+  }
+    .sectiontwo {
+        width: 100%;
+        height: 100vh;
+        padding: 0 1rem;
+        background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.952));
+    }
+    .__btn button {
+        padding: 10px;
+        color: white;
+        background-color: red;
+        font-size: 20px;
+        border-radius: 0.25rem;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:425px) {
+    .first_conn h1 {
+        font-size: 26.5px;
+        text-align: center;
+        margin-bottom: .7rem;
+    }
+    .first_conn h3 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .sectiontwo {
+        width: 100%;
+        height: 100vh;
+        padding: 0 1rem;
+        background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.952));
+    }
+    .__btn button {
+        padding: 10px;
+        color: white;
+        background-color: red;
+        font-size: 20px;
+        border-radius: 0.25rem;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .first_conn h1 {
+        font-size: 26.5px;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .navbar {
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+    .first_conn h3 {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .sectiontwo {
+        width: 100%;
+        height: 100vh;
+        padding: 0 1rem;
+        background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.952));
+    }
+    .con_tent_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .__btn button {
+        padding: 10px;
+        color: white;
+        background-color: red;
+        font-size: 20px;
+        border-radius: 0.25rem;
+        margin-top: 10px;
+    }
+}
+@media (min-width:1024px) and (max-width:2560px) {
+    .Mail__address input {
+        width: 450px;
+        height: 45px;
+        border: none;
+        padding: 8px;
+        background: transparent;
+        border-radius: 0.25rem;
+        position: relative;
+    }
+    .first_conn h1 {
+        display: flex;
+        font-size: 45px;
+        margin-bottom: .6rem;
+    }
+    .first_conn h3 {
+        font-size: 23px;
+        width: 450px;
+        font-weight: 400;
+    }
+    .con_tent_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 20px;
+    }
+    .con__tent h1 {
+        font-size: 50px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .con__tent h4 {
+        font-size: 27px;
+        margin-bottom: 2rem;
+    }
+    .con__tent h3 {
+        font-size: 20px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .navbar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        margin-top: 2rem;
+        padding: 0 8rem;
+        flex-wrap: wrap;
+    }
+}
+/* israel start here */
+
+.israel_wrapper {
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+.my_imgg {
+  width: 100%;
+}
+
+.imgg2 {
+  width: 100%;
+}
+
+.imgg3 {
+  width: 170%;
+}
+
+.the_div {
+  position: relative;
+}
+
+.israel_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.downloading {
+  color: blue;
+}
+
+hr {
+  background: rgb(177, 0, 0);
+  height: 2px;
+}
+
+.israel_wrap2 {
+  display: flex;
+  column-gap: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+
+.israel_wrap3 {
+  display: flex;
+  column-gap: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 10%;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.israel_content3 h2 {
+  margin-bottom: 20px;
+}
+
+.israel_image {
+  text-align: center;
+}
+
+.israel_image2 {
+  position: relative;
+
+}
+
+/* .israelBoxShot img {
+  height: 5rem;
+} */
+
+.strangethings {
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50%);
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  bottom: 5.3%;
+  justify-content: space-between;
+  padding: 8px 14px;
+  width: 60%;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  border-radius: 0.75rem;
+  z-index: 1;
+  left: 49%;
+  margin-top: -17%;
+}
+
+.st_downloads {
+  text-align: left;
+  /* margin: 0.3rem 0; */
+}
+
+.israel_content {
+  text-align: center;
+}
+
+.Download_btn {
+  width: 3rem;
+  height: 3rem;
+  outline: 2px solid rgb(0, 0, 0);
+  outline-offset: -2px;
+  display: block;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  content: '';
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  background: url("./download-icon.gif") center center no-repeat;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+  }
+
+  .the_div {
+      position: relative;
+  }
+
+  .my_imgg {
+      width: 100%;
+      height: 300px;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      padding: 8px 14px;
+      width: 100%;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      left: 49%;
+      margin-top: -17%;
+  }
+
+  /* 
+  .israelBoxShot img {
+      height: 4rem;
+  } */
+
+  .downloading {
+      font-size: 0.775rem;
+  }
+
+  .st {
+      font-size: 1rem;
+      /* margin-left: -20px; */
+  }
+
+  /* .Download_btn {
+      width: 3rem;
+      height: 3rem;
+  }  */
+}
+
+
+
+@media (min-width:320px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: column-reverse;
+  }
+
+  .the_div {
+      position: relative;
+  }
+
+  .st_downloads {
+      /* margin-left: -70px; */
+      /* text-align: left;
+     margin: 0.3rem 0; */
+      margin-left: -35px;
+
+  }
+
+  .my_imgg {
+      width: 250px;
+      height: 240px;
+  }
+
+  .israelBoxShot img {
+      height: 4.5rem;
+  }
+
+  .Download_btn {
+      width: 3.5rem;
+      height: 4.5rem;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      /* padding: 2px 10px; */
+      padding: 0;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      /* border-radius: 0.75rem; */
+      z-index: 1;
+      /* left: 45%; */
+      margin-top: -17%;
+  }
+
+  .st_downloads h5 {}
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -55px; */
+  }
+
+  .israel_content h1 {
+      font-size: 32px;
+  }
+
+  .israel_content h2 {
+      font-size: 1.125rem;
+      font-weight: 400;
+
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 40px;
+      font-weight: 700;
+  }
+
+  .israel_content2 h2 {
+      font-size: 18px;
+      margin-bottom: 2rem;
+
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column-reverse;
+  }
+
+  .israel_content3 h1 {
+      font-size: 35px;
+      font-weight: 700;
+      text-align: center;
+  }
+
+  .israel_content3 h2 {
+      font-size: 19px;
+      font-weight: 200px;
+      text-align: center;
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:375px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: column-reverse;
+  }
+
+  .the_div {
+      position: relative;
+  }
+
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      /* padding: 0.9px  2.5px; */
+      padding: 0;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      /* left: 45%; */
+      /* margin-top: 50%; */
+  }
+
+  .st_downloads {
+      margin-left: -50px;
+
+  }
+
+  .my_imgg {
+      width: 260px;
+      height: 210px;
+  }
+
+  .israelBoxShot img {
+      height: 4rem;
+  }
+
+  .Download_btn {
+      width: 3.5rem;
+      height: 4.5rem;
+  }
+
+  .st_downloads h5 {}
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -55px; */
+  }
+
+  .israel_content h1 {
+      font-size: 32px;
+      font-weight: 700;
+  }
+
+  .israel_content h2 {
+      font-size: 19px;
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 32px;
+      font-weight: 700;
+  }
+
+  .israel_content2 h2 {
+      font-size: 17px;
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column-reverse;
+  }
+
+  .israel_content3 h1 {
+      font-size: 32px;
+      font-weight: 700;
+  }
+
+  .israel_content3 h2 {
+      font-size: 17px;
+      font-weight: 400px;
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:425px) {
+  .israel_wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: column-reverse;
+  }
+
+
+  .the_div {
+      position: relative;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      padding: 0.9px 2px;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      /* left: 50%; */
+      /* margin-top: -17%; */
+  }
+
+  .my_imgg {
+      width: 300px;
+      height: 220px;
+  }
+
+  .israelBoxShot img {
+      /* height: 4.7rem; */
+  }
+
+  .Download_btn {
+      /* width: 1.5rem;
+     height: 1.5rem; */
+  }
+
+
+  .st_downloads h5 {}
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -85px; */
+  }
+
+  .israel_content h1 {
+      font-size: 35px;
+      font-weight: 700;
+  }
+
+  .israel_content h2 {
+      font-size: 20px;
+      margin-bottom: 20px
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .israel_content2 h2 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: column-reverse;
+  }
+
+  .st_downloads {
+      margin-left: -90px;
+
+  }
+
+  .israel_content3 h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .israel_content3 h2 {
+      font-size: 17px;
+      font-weight: 400px;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:768px) {
+
+  .st_downloads {
+      /* margin-left: -10px; */
+      margin-left: -95px;
+
+  }
+
+  .israel_content3 h2 {
+      font-size: 20px;
+
+  }
+
+  .st_downloads h5 {
+      /* margin-left: -85px; */
+  }
+
+  .strangethings {
+      padding: 0;
+  }
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+  }
+
+  .israel_content3 h1 {
+      font-size: 60px;
+  }
+
+  .israel_content2 h1 {
+      font-size: 50px;
+  }
+
+  .israel_content2 h2 {
+      font-size: 20px;
+  }
+
+  .israel_content h1 {
+      font-size: 36px;
+  }
+
+  .israel_content h2 {
+      font-size: 20px;
+  }
+
+  .israel_image {
+      width: 100%;
+  }
+
+  .israel_image2 {
+      width: 100%;
+
+  }
+
+  .israel_image3 {
+      width: 100%;
+  }
+}
+
+@media (min-width:1024px) {
+
+  .israel_wrap {
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      text-align: center;
+      flex-direction: row;
+  }
+
+
+  .the_div {
+      position: relative;
+  }
+
+  .strangethings {
+      overflow: hidden;
+      position: absolute;
+      transform: translateX(-50%);
+      background: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      bottom: 5.3%;
+      justify-content: space-between;
+      padding: 4px -10px;
+      width: 70%;
+      border: 2px solid rgba(128, 128, 128, 0.7);
+      border-radius: 0.75rem;
+      z-index: 1;
+      /* width: 170%; */
+      /* left: 50%; */
+      /* margin-top: -17%; */
+  }
+
+  .st_downloads {
+      margin-left: -70px;
+
+  }
+
+  .st_downloads p {
+      font-size: 0.775rem;
+      color: blue;
+      /* margin-left: -25px; */
+  }
+
+  .israel_content {
+      width: 60%;
+      text-align: left;
+  }
+
+  .israel_content2 {
+      width: 120%;
+      text-align: left;
+  }
+
+  .israel_content {
+      width: 160%;
+      text-align: left;
+  }
+
+  .israel_content h1 {
+      font-size: 48px;
+  }
+
+  .israel_content h2 {
+      font-size: 24px;
+      margin-bottom: 20px
+  }
+
+  .israel_wrap2 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: row;
+
+  }
+
+  .israel_content2 {
+      text-align: center;
+      margin-bottom: 20px;
+
+
+  }
+
+  .israel_content2 h1 {
+      font-size: 48px;
+      text-align: left;
+      font-weight: 600;
+  }
+
+  .israel_content2 h2 {
+      font-size: 24px;
+      text-align: left;
+      margin-bottom: 2rem;
+  }
+
+  .israel_image2 .imgg2 {
+      border-radius: 10px;
+  }
+
+  .israel_image {
+      width: 400px;
+      height: 300px;
+  }
+
+  .israel_wrap3 {
+      display: flex;
+      column-gap: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding: 10%;
+      flex-direction: row;
+  }
+
+  .st_downloads {
+      /* margin-left: -50px; */
+  }
+
+  .israel_content3 h1 {
+      font-size: 48px;
+      text-align: left;
+  }
+
+  .israel_content3 h2 {
+      font-size: 24px;
+      font-weight: 400px;
+      text-align: left;
+      margin-bottom: 2rem;
+  }
+
+  .my_imgg {
+      width: 100%;
+      /* height: 300px;  */
+  }
+
+  .israel_image3 .imgg3 {
+      width: 100%;
+  }
+
+  .israel_image2 .imgg2 {
+      width: 70%;
+  }
+}
+
+/* israel end here */
+body {
+    background-color: black;
+    color: white;
+  }
+  hr {
+    background-color: rgba(255, 252, 252, 0.219);
+    padding: 0.3rem;
+    margin-top: 5%;
+    border: none;
+  }
+  .d-wrapper {
+    flex-wrap: wrap;
+  }
+  .d-container h1 {
+    text-align: center;
+  }
+  .d-container h3 {
+    text-align: center;
+    padding-top: 5%;
+  }
+  .d-container {
+    padding: 5% 0%;
+    flex-wrap: wrap;
+  }
+  .d-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .2rem;
+  }
+  .boxx{
+    margin-top: 2%;
+  }
+  .d-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 252, 252, 0.219);
+    padding: 1rem;
+    width: 75%;
+    align-items: center;
+    position: relative;
+  }
+  .d-box:hover {
+    background-color: rgba(255, 252, 252, 0.308);
+    transition: 0.5s;
+  }
+  .text {
+    width: 97%;
+  }
+  .text p {
+    margin-top: 3%;
+  }
+  .dropdownMenu {
+    overflow: hidden;
+    max-height: 0;
+    visibility: collapse;
+    max-height: 0;
+    width: 75%;
+    padding: 0 1.5rem;
+    -webkit-transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    margin-top: 0.2%;
+  }
+  .dropdownMenu h3 {
+    padding: 0%;
+    text-align: left;
+  }
+  .faq.open .dropdownMenu{
+    overflow: hidden;
+    visibility: visible;
+    max-height: 0px;
+    padding: 0px 1.5rem;
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    text-align: left;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    max-height: 75rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .icon {
+    font-size: 30px;
+  }
+  .email {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2%;
+    flex-wrap: wrap;
+  }
+  input:focus::placeholder {
+    position: absolute;
+    margin-top: -4%;
+    font-size: 14px;
+    transition: 0.2s;
+    transition-delay: 10ms;
+    visibility: visible;
+  }
+  input:focus-within {
+    transition: 0.3s;
+  }
+  .d-emwrap {
+    align-items: center;
+    flex-direction: column;
+  }
+  .email input {
+    background-color: transparent;
+    background-color: rgba(255, 252, 252, 0.048);
+    border: none;
+    padding: 1rem 1rem;
+    width: 27%;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    border: 0.1px solid rgba(255, 255, 255, 0.459);
+  }
+  .email input:focus {
+    border: 1px solid white;
+  }
+  .email button {
+    padding: 0.8rem 1.5rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .email button:hover {
+    background-color: rgba(255, 0, 0, 0.705);
+  }
+  .email .icons {
+    font-size: 20px;
+  }
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .d-links {
+    display: flex;
+    padding: 0% 1% 15% 10%;
+  }
+  .question {
+    margin-left: 10%;
+    line-height: 80px;
+  }
+  .first-link {
+    flex-direction: column;
+    display: flex;
+    row-gap: 12px;
+    line-height: 1.3125rem;
+  }
+  .but {
+    margin-top: -13%;
+    margin-left: 10%;
+  }
+  .but button {
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .but button .iconss {
+    margin-left: 7px;
+  }
+  .but button .iconsss {
+    margin-right: 7px;
+  }
+  .but h5 {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 2%;
+  }
+  .second-link {
+    flex-direction: column;
+    display: flex;
+    row-gap: 12px;
+    margin-left: 20%;
+    line-height: 1.3125rem;
+  }
+  .third-link {
+    flex-direction: column;
+    display: flex;
+    row-gap: 12px;
+    margin-left: 20%;
+    line-height: 1.3125rem;
+  }
+  @media screen and (max-width: 425px) {
+    .d-emwrap {
+      padding: 10% 10% 10% 10%;
+    }
+    .email input {
+      width: 90%;
+      margin-top: 5%;
+    }
+    .email button{
+      margin-top: 5%;
+    }
+    .dropdownMenu.open {
+      padding: 6%;
+      width: 90%;
+    }
+    .dropdownMenu {
+      width: 85%;
+    }
+    .boxx{
+      margin-top: 7%;
+    }
+    .d-box {
+      width: 85%;
+      padding: 1.5rem;
+    }
+    .d-links {
+      flex-direction: column;
+      padding: 0% 1% 50% 9%;
+    }
+    .second-link {
+      margin-left: 1px;
+      margin-top: 30px;
+    }
+    .third-link {
+      margin-left: 1px;
+      margin-top: 30px;
+    }
+    .but {
+      margin-top: -40%;
+      margin-left: 10%;
+    }
+    .but h5 {
+      margin-top: 10%;
+    }
+    .question {
+      margin-left: 9%;
+    }
+    .icon {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 1024px) and (min-width: 425px) {
+    .d-box {
+      width: 90%;
+    }
+    .icon {
+      font-size: 15px;
+    }
+    .dropdownMenu.open {
+      width: 90%;
+    }
+    .dropdownMenu {
+      width: 90%;
+    }
+    .email input {
+      width: 15%;
+    }
+    .d-emwrap {
+      padding: 4% 5% 5% 5%;
+    }
+    .second-link {
+      margin-left: 25px;
+      width: 250px;
+    }
+    .first-link {
+      margin-left: -5%;
+      width: 250px;
+    }
+    .third-link {
+      margin-left: 14%;
+      width: 250px;
+    }
+    .question {
+      margin-left: 5%;
+      line-height: 40px;
+    }
+    .but {
+      margin-top: -13%;
+      margin-left: 5%;
+    }
+    .email input {
+      width: 50%;
+    }
+  }
+  @media (width: 425px) {
+    .second-link {
+      margin-left: -18px;
+      margin-top: 30px;
+    }
+    .third-link {
+      margin-left: 40%;
+      margin-top: -40%;
+    }
+    .but {
+      margin-top: -40%;
+      margin-left: 5%;
+    }
+    .but h5 {
+      margin-top: 10%;
+    }
+    .question {
+      margin-left: 5%;
+    }
+    .email input {
+      width: 90%;
+    }
+    .d-box{
+      width:90%;
+    }
+  }
+  
